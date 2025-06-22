@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class SquareList {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(2, 4, 6, 8, 10);
+
+        for (int num : numbers) {
+            System.out.println("Square of " + num + " is " + (num * num));
+        }
+    }
+}
